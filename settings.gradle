@@ -1,0 +1,2 @@
+rootProject.name = "Tres En Raya"
+include ':app'
