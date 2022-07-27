@@ -4,4 +4,32 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"/>
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/padding_screen"
+        android:weightSum="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_horizontal">
+
+            <TextView
+                style="@style/title"
+                android:text="@string/app_name"
+            />
+
+            <Button
+                android:id="@+id/one_play"
+                style="@style/button"
+                android:text="@string/one_player"
+            />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

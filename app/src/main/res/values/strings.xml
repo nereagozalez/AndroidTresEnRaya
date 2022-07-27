@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">Tres En Raya</string>
+    <string name="app_name">Tic-Tac-Toe</string>
+    <string name="one_player">One Player</string>
+    <string name="two_player">Two Players</string>
+    <string name="easy_level">Easy</string>
+    <string name="normal_level">Normal</string>
+    <string name="insane_level">Insane</string>
+    <string name="squares_text">Tile</string>
+    <string name="circles_win">Circles Win!</string>
+    <string name="crosses_win">Crosses Win!</string>
+    <string name="tie">Tie!</string>
 </resources>
