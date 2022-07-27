@@ -1,10 +1,36 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.TresEnRaya" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="Theme.TresEnRaya" parent="android:Theme.Holo.NoActionBar.Fullscreen">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryDark">@color/purple_700</item>
         <item name="colorAccent">@color/teal_200</item>
         <!-- Customize your theme here. -->
+    </style>
+    <style name="title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_title</item>
+    </style>
+    <style name="button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:minWidth">@dimen/wight_button</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@dimen/hight_button</item>
+        <item name="android:layout_margin">@dimen/mangin_button</item>
+        <item name="android:textSize">@dimen/text_button</item>
+        <item name="android:onClick">startHandler</item>
+    </style>
+    <style name="radio">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_radio</item>
+        <item name="android:alpha">0.8</item>
+    </style>
+    <style name="squares">
+        <item name="android:layout_width">@dimen/square</item>
+        <item name="android:layout_height">@dimen/square</item>
+        <item name="android:src">@drawable/blank</item>
+        <item name="android:onClick">changeSquareFunction</item>
     </style>
 </resources>
